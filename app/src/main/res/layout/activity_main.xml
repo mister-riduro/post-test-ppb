@@ -60,4 +60,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_gravity="bottom"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnAddNew"
+            android:text="+"
+            android:background="@drawable/bgbtnnew"
+            android:textSize="38sp"
+            android:textColor="#FFF"
+            android:layout_width="52dp"
+            android:layout_height="52dp"/>
+    </LinearLayout>
+
 </LinearLayout>
