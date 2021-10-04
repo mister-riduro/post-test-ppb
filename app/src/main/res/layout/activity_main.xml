@@ -42,7 +42,7 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/ourdoes"
+        android:id="@+id/rc_task"
         android:layout_width="match_parent"
         android:layout_marginTop="-60dp"
         android:layout_marginRight="16dp"

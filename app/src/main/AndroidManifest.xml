@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDoListMarkII">
         <activity
+            android:name=".UpdateTaskAct"
+            android:exported="true" />
+        <activity
             android:name=".NewTaskAct"
             android:exported="true" />
         <activity

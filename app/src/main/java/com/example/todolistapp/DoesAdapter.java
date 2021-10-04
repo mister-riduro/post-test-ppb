@@ -37,7 +37,6 @@ public class DoesAdapter extends RecyclerView.Adapter<DoesAdapter.MyViewHolder>{
         final String getTitleDoes = myDoes.get(i).getTitledoes();
         final String getDescDoes = myDoes.get(i).getDescdoes();
         final String getDateDoes = myDoes.get(i).getDatedoes();
-
     }
 
     @Override
